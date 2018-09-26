@@ -1,0 +1,122 @@
+.Header {
+  background-image: linear-gradient(#42BCC5, #42E9C5);
+  text-align: left;
+  font-family: Lucida Bright, Georgia, serif;
+  font-size: 25px;
+  color: white;
+  padding: 50px;
+  box-shadow: inset 0 -7px 30px -7px black;
+}
+
+.Header h1 {
+  margin-bottom: 0px;
+}
+
+.Header h3 {
+  margin-top: 0px;
+}
+
+body {
+  display: block;
+  margin: 0px;
+}
+
+.body {
+  display: block;
+  margin: 0px;
+  padding-bottom: 500px;
+  background-color: #368269;
+}
+
+.linkbanner {
+  display: block;
+  text-align: center;
+}
+
+.navbar {
+  display: inline-block;
+  margin: 20px;
+  padding: 0px;
+  font-size: 20px;
+  font-family: sans-serif;
+  text-decoration: none;
+  text-align: center;
+}
+
+.navbar li {
+  display: inline-block;
+}
+
+#navbuttons {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+}
+
+#navbuttons a {
+  text-decoration: none;
+  display: inline-block;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  border-radius: 4px 4px 4px 4px;
+}
+
+#navbuttons a:hover {
+  text-decoration: none;
+  background-color: #42BCC5;
+  box-shadow: inset 0 0 10px black;
+}
+
+.pagecontent {
+  display: inline-block;
+}
+
+#page_title {
+  display: block;
+  font-style: normal;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+
+div.profile_image img {
+  float: left;
+  width: 400px;
+  height: 320px;
+  margin: 20px;
+  transform: rotate(90deg);
+}
+
+div.intro p {
+  margin: 50px;
+  margin-top: 0px;
+  font-family: serif;
+  font-size: 25px;
+  color: white;
+  word-wrap: normal;
+}
+
+.sitemap {
+  text-align: center;
+  background-color: black;
+  margin: 0px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#sitemap_buttons li {
+  display: inline-block;
+}
+
+#sitemap_buttons a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+}
+
+#sitemap_buttons a:hover {
+  text-decoration: underline;
+}
